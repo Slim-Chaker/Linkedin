@@ -1,0 +1,401 @@
+html {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+}
+
+.linkedin_logo {
+    max-width: 180px;
+    height: 40px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 110px;
+    display: flex;
+
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.inscrire {
+    color: gray;
+}
+
+.inscrire:hover {
+    background-color: rgba(128, 128, 128, 0.198);
+    color: black;
+}
+
+.identifier {
+    color: rgb(77, 117, 182);
+    border: 1px solid rgb(77, 117, 182);
+
+}
+
+
+.identifier:hover {
+    border: 1px solid rgb(77, 117, 182);
+    background-color: rgba(2, 19, 255, 0.075)
+}
+
+.section1 {
+    margin-left: 115px;
+}
+
+.title_content {
+    color: rgb(77, 117, 182);
+    font-size: 60px;
+
+    font-weight: 100;
+    width: 600px;
+}
+
+.section2 {
+
+    margin-left: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture_friends {
+    margin-top: -160px;
+
+}
+
+.btn1,
+.btn2 {
+    font-size: 17px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+.btn1 {
+    color: rgb(77, 117, 182);
+    border-bottom: 1px solid rgb(77, 117, 182);
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: rgba(0, 35, 90, 0.089);
+}
+
+.btn2 {
+    color: gray;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background-color: rgba(0, 35, 90, 0.089);
+}
+
+.input1,
+.input2 {
+
+    width: 370px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.input1:focus,
+.input2:focus {
+    border: 2px solid rgb(6, 31, 71);
+    border-radius: 5px;
+}
+
+.btn3 {
+    background-color: rgb(77, 117, 182);
+    color: white;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: rgb(7, 50, 121);
+}
+
+.section3 {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.048);
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.title_content2 {
+
+    font-size: 50px;
+    width: 450px;
+    font-weight: 100;
+    margin-left: 100px;
+
+}
+
+.article3 {
+
+    width: 600px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article3>h3 {
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.301);
+
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.article3>h3:hover {
+    background-color: rgba(128, 128, 128, 0.541);
+}
+
+.article3 a {
+    text-decoration: none;
+    display: block;
+    color: rgba(85, 84, 84, 0.685);
+}
+
+.section4 {
+    background-color: rgba(243, 124, 124, 0.144);
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.title_content3 {
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(143, 14, 14);
+}
+
+.btn4 {
+    font-weight: 300;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 300px;
+}
+
+.section5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn4:hover {
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+.picture_friends2,
+.picture_friends3 {
+    width: 300px;
+}
+
+.picture_friends3 {
+    width: 200px;
+}
+
+.title_content4,
+.title_content5 {
+
+    width: 450px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.btn5 {
+    border: 1px solid transparent;
+    background-color: rgba(8, 85, 209, 0.637);
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 100;
+}
+
+.btn5:hover {
+    background-color: rgba(8, 85, 209, 0.863);
+    cursor: pointer;
+}
+
+.select1 {
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.select1 option {
+    font-size: 20px;
+}
+
+.section6 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article6 {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.034);
+    padding: 100px;
+}
+
+.title_content6 {
+    font-size: 40px;
+    color: rgb(143, 14, 14);
+    font-weight: 100;
+}
+
+.title_content7 {
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.title_content8,
+.title_content9,
+.title_content10 {
+    background-color: rgba(128, 128, 128, 0.164);
+    width: 350px;
+    height: 50px;
+    font-weight: 100;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.title_content9,
+.title_content910 {
+    padding-top: 30px;
+}
+
+.picture_friends4 {
+    margin-right: -250px;
+}
+
+.title_content8:hover,
+.title_content9:hover,
+.title_content10:hover {
+    background-color: rgba(128, 128, 128, 0.377);
+    cursor: pointer;
+}
+
+.section7 {
+    margin-top: 50px;
+}
+
+.picture_friends5 {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+}
+
+.linkedin_logo2 {
+    max-width: 180px;
+    height: 30px;
+    margin: 20px 100px 0 110px;
+    cursor: pointer;
+}
+
+.footer_items1 ul,
+.footer_items2 ul,
+.footer_items3 ul,
+.footer_items4 ul {
+    list-style-type: none;
+    margin: 30px;
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+}
+
+footer a:hover {
+    color: rgb(5, 49, 170);
+    text-decoration: underline solid rgb(5, 49, 170);
+}
+
+footer li {
+    line-height: 30px;
+}
+@media screen and (max-width:640px)
+{
+    header,.section1,.section3,.section4,.section5,.section6,.section7,footer{
+        display:none;
+    }
+    .section2 {
+        margin-left: 10px;
+    }
+    .picture_friends {
+     display: none;
+    }
+    .btn1,
+    .btn2 {
+        font-size: 15px;
+    }
+    .btn3{
+        display: none;
+    }
+    .input1,
+    .input2 {
+        width: 420px;
+        height: 40px;
+    }
+    
+}
